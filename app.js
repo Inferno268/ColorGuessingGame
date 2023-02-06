@@ -23,7 +23,7 @@ document.getElementById(rgbValues[0]).style.backgroundColor="RGB("+ rFake + "," 
 document.getElementById(rgbValues[1]).style.backgroundColor="RGB("+ rFake1 + "," + rFake1 + "," + rFake1 +")"; //sets bg color for fake one
 
 
-function click(){
+function idk(){
     console.log("test");
     
     if(document.activeElement.id==answer){                              //If you click on the element that has id answer
