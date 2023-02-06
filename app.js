@@ -19,8 +19,8 @@ document.getElementById(answer).style.backgroundColor="RGB("+ r + "," + g + "," 
 
 rgbValues.splice(answer,1);                                                                     //replace one value in the rgb values on one index
 
-document.getElementById(rgbValues[0]).style.backgroundColor="RGB("+ rFake + "," + rFake + "," + rFake +")"; //sets bg color for fake one
-document.getElementById(rgbValues[1]).style.backgroundColor="RGB("+ rFake1 + "," + rFake1 + "," + rFake1 +")"; //sets bg color for fake one
+document.getElementById(rgbValues[option1]).style.backgroundColor="RGB("+ rFake + "," + rFake + "," + rFake +")"; //sets bg color for fake one
+document.getElementById(rgbValues[option2]).style.backgroundColor="RGB("+ rFake1 + "," + rFake1 + "," + rFake1 +")"; //sets bg color for fake one
 
 
 function click(){
