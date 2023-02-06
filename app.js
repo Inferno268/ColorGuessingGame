@@ -24,6 +24,8 @@ document.getElementById(rgbValues[1]).style.backgroundColor="RGB("+ rFake1 + ","
 
 
 function click(){
+    console.log("test");
+    
     if(document.activeElement.id==answer){                              //If you click on the element that has id answer
         document.getElementById("colorValue").innerHTML="Got it :)";
     }
